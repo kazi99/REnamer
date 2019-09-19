@@ -27,6 +27,7 @@ class MyHandler(FileSystemEventHandler):
             name += nice_counter(i)
             name += extension
             i += 1
+            
             os.rename(dump_to_folder + '/' + file_name, dump_to_folder + '/' + name)
 
             old_path = dump_to_folder + '/' + name
@@ -44,5 +45,3 @@ try:
 except KeyboardInterrupt:
     observer.stop()
 observer.join()
-
-#comment
