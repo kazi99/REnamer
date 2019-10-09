@@ -6,7 +6,7 @@ from watchdog.events import FileSystemEventHandler
 import os
 import time
 
-dump_to_folder = "/Users/thrawn/Desktop/dump"
+dump_to_folder = "/Users/thrawn/Desktop/dump" #due to change
 sorted_folder = "/Users/thrawn/Desktop/sorted"
 
 def nice_counter(n):
